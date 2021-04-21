@@ -1,0 +1,24 @@
+.playerContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 3rem 4rem;
+  width: 26.5rem;
+  height: 100vh;
+
+  color: var(--white);
+  background-color: var(--purple-500);
+
+  header {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+  }
+
+  strong {
+    font-family: Lexend, sans-serif;
+    font-weight: 600;
+  }
+}
